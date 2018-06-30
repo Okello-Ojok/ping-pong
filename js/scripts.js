@@ -42,6 +42,7 @@ $(document).ready(function() {
 
     //Get user input from the form and assign it to a variable
     let userNum = parseInt($("#userInput").val());
+    
     //Call the function and pass in the user input above as an argument and assign this to a variable
     let display = pingPong(userNum);
     //Since the variable holding the function output is an array, loop through each item with forEach
