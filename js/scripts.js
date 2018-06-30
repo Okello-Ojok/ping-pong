@@ -1,15 +1,23 @@
 //Backend Logic
-
+// Create a function
 let pingPong = function(num) {
 
+//Declare an empty array to store numbers as they iterate through
   let results = [];
 
-  let str1 = "ping";
-  let str2 = "pong";
-  let str3 = "pingpong";
+//Declare variables to hold the strings ping, pong and pingpong
+  let str1 = "ping";     //This string will be returned when number is divisible by 3
+  let str2 = "pong";     //This string will be returned when number is divisible by 5
+  let str3 = "pingpong"; //This string will be returned when number is divisible by 15
+
+//Make a loop to iterate through from 1 to the number entered by the user.
 
   for (let counter = 1; counter <= num; counter++) {
-    if (counter % 3 === 0) {
+    //If
+    if (counter % 5 === 0) {
+      results.push(str2);
+    }
+    else if (counter % 3 === 0) {
       results.push(str1);
     } else {
       results.push(counter);
