@@ -14,7 +14,10 @@ let pingPong = function(num) {
 
   for (let counter = 1; counter <= num; counter++) {
     //If
-    if (counter % 5 === 0) {
+    if (counter % 15 === 0) {
+      results.push(str3);
+    }
+    else if (counter % 5 === 0) {
       results.push(str2);
     }
     else if (counter % 3 === 0) {
