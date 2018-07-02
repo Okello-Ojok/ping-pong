@@ -5,7 +5,7 @@
 ## Description
 This project shows Javascript loops and arrays in action. It takes user input from an HTML form which is a number and returns them. As it loops through, there are three exceptions (number divisble by 3 returns ping, number divisble by 5 returns pong and number divisble by 15 returns pingpong).  The iteration starts from 1 to the number the user entered.
 
-##Specs
+## Specs
 1. If the number is divisible by 3, a string ping is returned instead of the number.
     * Example input: 3
     * Example output: ping
