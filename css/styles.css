@@ -33,6 +33,7 @@ body {
   color: black;
   border-radius: 0;
   transition: .2s;
+  width: 120px;
 }
 
 .btn:hover, .btn:focus {
